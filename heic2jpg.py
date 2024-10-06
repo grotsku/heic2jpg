@@ -7,8 +7,7 @@ pillow_heif.register_heif_opener()
 file_list = []
 
 # get list of .heic files
-#directory = input('input directory path: ')
-directory = '/home/olli/code/heic2jpg/'
+directory = input('input directory path: ')
 
 def get_files():
     for file in os.listdir(directory):
