@@ -11,7 +11,7 @@ directory = input('input directory path: ')
 
 def get_files():
     for file in os.listdir(directory):
-        if file.endswith('.heic'):
+        if file.endswith('.heic') or file.endswith('.HEIC'):
             file_list.append(file)
         else:
             continue
